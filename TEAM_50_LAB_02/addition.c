@@ -3,7 +3,7 @@
 
 int add()
 {
-    int C = A - B;
+    int C = A + B;
     return C;
 }
 

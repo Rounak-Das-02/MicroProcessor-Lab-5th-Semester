@@ -1,7 +1,7 @@
 rm *.o *.i *.s 
 
-gcc -E addition.c | cat >> addition.i
-gcc -S addition.i
+gcc -E addition.c | cat >> addition.i ## Produces extended C code
+gcc -S addition.i 
 as addition.s -o addition.o
 objdump -d addition.o
 
