@@ -1,3 +1,4 @@
+rm -rf *.o
 gcc -c numEvens.c 
 nasm -felf64 evenNumbers.asm
 nasm -felf64 oddNumbers.asm
